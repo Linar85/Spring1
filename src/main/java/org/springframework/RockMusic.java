@@ -5,4 +5,14 @@ public class RockMusic implements Music{
     public String getSong() {
         return "Unfogiven";
     }
+    @Override
+    public void init() {
+        System.out.println("initing");
+    }
+
+    @Override
+    public void destroy() {
+        System.out.println("destroing");
+
+    }
 }
